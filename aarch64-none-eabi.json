@@ -1,0 +1,14 @@
+{
+    "llvm-target": "aarch64-none-eabi",
+    "target-endian": "little",
+    "target-pointer-width":"64",
+    "target-c-int-width": "64",
+    "os": "none",
+    "arch": "aarch64",
+    "vendor": "unknown",
+    "env":"elf",
+    "linker": "aarch64-elf-ld",
+    "executables": true,
+    "relocation-model": "static",
+    "no-compile-rt": true
+}
