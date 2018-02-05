@@ -5,7 +5,7 @@
 _start:
     // Set up stack and bss
 0:  
-    mov sp, #0x8000
+    mov sp, #0x80000
     ldr x9, =__bss_start
     ldr x10, =__bss_end
    	ldr x1, =_start
